@@ -103,3 +103,42 @@ Issue found and fixed during testing: the Roman Urdu phrases "qurandazi" and "je
 Original code is under the [MIT License](LICENSE).
 
 Dependencies: [Streamlit](https://github.com/streamlit/streamlit) (Apache-2.0) and [pytest](https://github.com/pytest-dev/pytest) (MIT). Both licenses allow use in an MIT-licensed project.
+
+
+
+--------------------------------------------
+
+2nd Prompt
+
+
+We have a working Streamlit application called FraudLens PK, with app.py, detector.py, ai_engine.py, and automated tests.
+
+I want to improve the UI/UX to look like a professional cybersecurity SaaS dashboard suitable for a hackathon demonstration.
+
+**Important requirements:**
+
+1. Keep Streamlit and Python. Do not migrate to React or another framework.
+2. Preserve all existing detection logic, tests, and functionality.
+3. Use a modern, polished design with a navy, teal, and white color palette.
+4. Create a professional header with the FraudLens PK branding.
+5. Create a clean message input section with sample messages, language selection, and a prominent Analyze button.
+6. Organize the results into visually distinct sections:
+   - Overall assessment
+   - Warning indicators
+   - Evidence from the submitted message
+   - Possible next scam tactics
+   - Potential damage
+   - Recommended safety actions
+7. Make the interface responsive and readable on smaller screens.
+8. Improve typography, spacing, cards, icons, accessibility, and visual hierarchy.
+9. Do not display fabricated risk percentages, AI predictions, or statistics.
+10. Do not claim AI analysis is active until a real eligible AI model has been integrated and tested.
+11. Keep the privacy disclaimer and clearly distinguish rule-based indicators from AI-generated assessments.
+12. Do not store submitted messages, expose API keys, or automatically open suspicious links.
+13. Do not modify detector.py or ai_engine.py unless absolutely necessary for compatibility.
+14. Work only on the existing application and explain the changes.
+15. Run the existing tests after making changes and report the actual results.
+
+First inspect the current app.py and project structure. Then implement the UI improvements carefully.
+
+Do not begin Stage 2 AI model integration yet.
